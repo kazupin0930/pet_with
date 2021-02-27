@@ -89,21 +89,21 @@ input:hover {
 
 /* ユーザー詳細 */
 
-.user__wrapper{
+.user__wrapper {
   min-height: calc(100vh - 161px);
   font-size: 3vh;
   padding: 10%;
   margin: 0 10%;
-  background-color: rgb(237, 242, 247);
+  background-color: rgb(237, 247, 247);
 }
 
-.table{
+.table {
   border-collapse: collapse;
-  margin-bottom: 32px;
+  margin: 0 0 16% 15% ;
   width: 70%;
 }
 
-.table__col1{
+.table__col1 {
   text-align: left;
   font-weight: bold;
   background: #f7e6e6;
@@ -111,9 +111,10 @@ input:hover {
   border: 1px solid #fd0303;
   width: 30%;
   padding: 8px;
+  margin-left: 15%;
 }
 
-.table__col2{
+.table__col2 {
   text-align: left;
   border: 1px solid #131313;
   border-collapse: collapse;
@@ -129,16 +130,9 @@ input:hover {
 }
 
 h2.page-heading {
-  padding: 3vh 3vh 5vh 3vh;
-  background-color: rgb(209, 209, 209);
-}
-
-th.table__col1 {
- width: 30%;
-}
-
-td.table__col2 {
-  width: 50%;
+  padding: 3% 15% 5% 15%;
+  margin: 8%;
+  background-color: rgb(221, 215, 215);
 }
 
 /*ユーザー詳細*/
