@@ -1,24 +1,96 @@
-# README
+# テーブル設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## users テーブル
 
-* Ruby version
+| Column             | Type       | Options                  |
+| ------             | ------     | --------                 |
+| nickname           | string     | null: false              |
+| email              | string     | null: false, unique: true|
+| encrypted_password | string     | null: false              |
 
-* System dependencies
 
-* Configuration
+### Association
 
-* Database creation
+- has_many   :likes
+- belongs_to :pet
+- has_many   :cats
+- has_many   :dogs
+- has_many   :chats
 
-* Database initialization
+## pets テーブル
 
-* How to run the test suite
+| Column              | Type       | Options          |
+| ------              | ------     | --------         |
+| user                | references | foreign_key: true|
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Association
+- belongs_to :user
 
-* ...
+
+##  dogsテーブル
+
+| Column              | Type       | Options           |
+| ------              | ---------- | --------          |
+| pet_name            | string     | null: false       |
+| type                | string     | null: false       |
+| personality_id      | integer    | null: false       |
+| age_id              | integer    | null: false       |
+| sex_id              | integer    | null: false       |
+| weight              | integer    | null: false       |
+| user                | references | foreign_key: true |
+
+
+### Association
+
+- belongs_to :user
+
+
+## cats テーブル
+
+| Column              | Type       | Options           |
+| ------              | ---------- | --------          |
+| pet_name            | string     | null: false       |
+| type                | string     | null: false       |
+| personality_id      | integer    | null: false       |
+| age_id              | integer    | null: false       |
+| sex_id              | integer    | null: false       |
+| weight              | integer    | null: false       |
+| user                | references | foreign_key: true |
+
+
+
+### Association
+
+- belongs_to :user
+
+
+##  likesテーブル
+
+| Column          | Type       | Options           |
+| ------          | ---------- | --------          |
+| dogs            | references | foreign_key: true |
+| cats            | references | foreign_key: true |
+| user            | references | foreign_key: true |
+
+
+### Association
+
+- has_many :dogs
+- has_many :cats
+- has_many :users
+
+
+
+##  chatテーブル
+
+| Column       | Type       | Options           |
+| ------       | ---------- | --------          |
+| text         | text       | null: false       |
+| user         | references | foreign_key: true |
+
+
+### Association
+
+- has_many   :users
