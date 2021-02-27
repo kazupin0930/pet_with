@@ -1,0 +1,52 @@
+<%= render "shared/header" %>
+<div class='main'>
+  <div class='title-contents'>
+    <p class='main-title'>
+      ペットが大好きなあなたへ
+    </p>
+    <p class='sub-title'>
+      PetWithはだれでも簡単にペットの画像を投稿できる
+    </p>
+    <p class='third-titile'>
+      憩いの場です
+    </p>
+    <div class='main-image'>
+      <%= image_tag "main_dog", class:"main-dog" %>
+      <%= link_to image_tag("", class:"send-btn"), "#" %>
+    </div>
+  </div>
+
+  <div class='select-reason-contents'>
+    <div class='title-one'>こちらから愛犬画像を投稿する</div>
+      <div class='title-two'>こちらから愛猫画像を投稿する</div>
+        <ul class='reason-lists'>
+          <li class='list'>
+            <%= link_to image_tag("dog-icon.jpg", class:"icon-pic1"), method: :get %>
+            <%= link_to image_tag "cat-icon.jpg", class:"icon-pic2" %>
+            <span class='list-letter'>猫のシルエットをクリック</span>
+            <p class='list-description'>
+              愛犬の無邪気な写真をたくさんUpしましょう
+              <br>そして癒されましょう<br>
+            </p>
+          </li>
+          <li class='list'>
+            <span class='list-letter2'>犬のシルエットをクリック</span>
+            <p class='list-description2'>
+              愛猫の自由気ままな写真をたくさんUpしましょう
+              <br>そして癒されましょう<br>
+            </p>
+          </li>
+          <li class='list'>
+            <%= link_to image_tag "chat-icon.png", class:"icon-pic3" %>
+            <span class='list-letter3'>chatアイコンをクリック</span>
+            <p class='list-description3'>
+              お互いのペットの事で気になる事やその他
+              <br>情報交換をする場です<br>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<%= render "shared/footer" %>

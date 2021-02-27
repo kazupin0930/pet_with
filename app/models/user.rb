@@ -4,6 +4,13 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+
+  has_many   :likes
+  belongs_to :pet
+  has_many   :cats
+  has_many   :dogs
+  has_many   :chats
+
   validates :nickname, presence: true
   validates :keep_pet, presence: true
   validates :number_of_pets, presence: true
