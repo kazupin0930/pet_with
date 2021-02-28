@@ -38,11 +38,11 @@
 | Column              | Type       | Options           |
 | ------              | ---------- | --------          |
 | pet_name            | string     | null: false       |
-| type                | string     | null: false       |
+| kind                | string     | null: false       |
 | personality_id      | integer    | null: false       |
 | age_id              | integer    | null: false       |
 | sex_id              | integer    | null: false       |
-| weight              | integer    | null: false       |
+| weight              | string     | null: false       |
 | user                | references | foreign_key: true |
 
 
@@ -56,11 +56,11 @@
 | Column              | Type       | Options           |
 | ------              | ---------- | --------          |
 | pet_name            | string     | null: false       |
-| type                | string     | null: false       |
+| kind                | string     | null: false       |
 | personality_id      | integer    | null: false       |
 | age_id              | integer    | null: false       |
 | sex_id              | integer    | null: false       |
-| weight              | integer    | null: false       |
+| weight              | string     | null: false       |
 | user                | references | foreign_key: true |
 
 

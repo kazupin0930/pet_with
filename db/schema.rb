@@ -35,11 +35,11 @@ ActiveRecord::Schema.define(version: 2021_02_28_021849) do
 
   create_table "dogs", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "pet_name", null: false
-    t.string "type", null: false
+    t.string "kind", null: false
     t.integer "personality_id", null: false
     t.integer "age_id", null: false
     t.integer "sex_id", null: false
-    t.integer "weight"
+    t.string "weight"
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

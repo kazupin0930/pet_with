@@ -5,7 +5,7 @@
   </header>
   <div class="pets-info-main">
     <h2 class="pets-info-title">ペットの情報を入力</h2>
-  <%= form_with model: @dogs, url: dogs_path, method: :get, local: true do |f| %>
+  <%= form_with model: @dog, url: dogs_path, local: true do |f| %>
 
     <%#= render 'shared/error_messages', model: f.object %>
 
@@ -30,12 +30,12 @@
         <span class="indispensable">必須</span>
       </div>
       <%= f.text_area :pet_name, class:"pets-text", id:"pet-name", placeholder:"名前をご記入ください" %>
-      <div class="pets-type">
+      <div class="pets-kind">
         <div class="weight-bold-text">
           ペットの種類
           <span class="indispensable">必須</span>
         </div>
-        <%= f.text_area :type, class:"pets-text", id:"pet-type", placeholder:"ペットの種類" %>
+        <%= f.text_area :kind, class:"pets-text", id:"pet-kind", placeholder:"ペットの種類" %>
       </div>
     </div>
     <%# 名前とペットの種類 %>
@@ -82,7 +82,7 @@
 
     <%# 下部ボタン %>
     <div class="post-btn-contents">
-      <%= link_to "画像を投稿する", dogs_path, class:"post-btn" %>
+      <%= f.submit  "画像を投稿する", class:"post-btn" %>
       <%= link_to 'もどる', root_path, class:"back-btn" %>
     </div>
     <%# 下部ボタン %>

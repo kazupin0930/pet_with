@@ -10,7 +10,7 @@ class Dog < ApplicationRecord
   with_options presence: true do
     validates :image
     validates :pet_name
-    validates :type
+    validates :kind
     validates :weight
   end
 

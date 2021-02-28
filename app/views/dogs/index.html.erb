@@ -2,17 +2,17 @@
   <p class='dog-main-title'>
     <%= link_to 'メイントップへ', pets_path, method: :get, class: "dog-sub-title" %>
   <p class='dog-sub-title'>
-    みんなのわんこ投稿広場
+    わんこを見て癒されよう
   </p>
 
   <div class='photo-contents'>
-  <h2 class='title'>ペット大集合</h2>
+  <h2 class='title'>みんなのわんこ投稿広場</h2>
   <%= link_to '新規投稿写真', "#", class: "subtitle" %>
   <ul class='item-lists'>
-  <%= form_with model: @dog, local: true do |f| %>
+  
     <% @dogs.each do |dog| %>
     <li class='list'>
-      <%= link_to dog_path(dog.id), method: :get do %>
+      <%= link_to dogs_path, method: :get do %>
       <div class='pet-img-content'>
         <%= image_tag dog.image, class: "dog-img" %>
       </div>
@@ -52,7 +52,7 @@
     </li>
     <% end %>
   </ul>
-  <% end %>
+
 
   <footer class="footer">
     <p class="copyright"> @PetWith 2021 </p>

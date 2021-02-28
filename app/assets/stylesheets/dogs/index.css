@@ -11,6 +11,19 @@ dog-main {
 
 }
 
+.photo-contents h2.title {
+  background-color: rgb(255, 255, 255);
+
+  margin-bottom: 5%;
+  color: #6cb4e4;
+  text-align: center;
+  padding: 0.25em;
+  border-top: solid 2px #6cb4e4;
+  border-bottom: solid 2px #6cb4e4;
+  background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
 .dog-sub-title {
   background-color: rgb(227, 241, 247);
   color: sandybrown;
@@ -28,6 +41,7 @@ p.dog-sub-title {
   font-size: 3vh;
   font-weight: bold;
   display: block; 
+  border-bottom: double 5px #FFC778;
 }
 
 .dog-main-image {
@@ -40,7 +54,7 @@ p.dog-sub-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10vh 0;
+  padding: 5vh 0;
 }
 
 .photo-contents>.title {
@@ -110,80 +124,8 @@ p.dog-sub-title {
 
 .nice-count {
   font-size: 2vh;
-}.item-contents {
-  background-color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10vh 0;
 }
 
-.photo-contents>.title {
-  font-size: 5vh;
-  line-height: 1.4;
-  font-weight: bold;
+p.copyright {
+  padding-top: 30%;
 }
-
-.photo-contents>.subtitle {
-  font-size: 3vh;
-  margin: 1vh 0;
-  text-decoration: none;
-  color: #3ccace;
-  font-weight: bold;
-}
-
-.dog-lists {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.dog-lists>.list {
-  width: 37vh;
-  padding: 1vw;
-  background-color: #FFF;
-}
-
-
-.dog-img-content {
-  position: relative;
-}
-
-.dog-img {
-  width: 33vh;
-  height: 33vh;
-}
-
-.dog-info {
-  background-color: #FFF;
-  color: black;
-  padding: 1vw;
-}
-
-.pet-name {
-  font-size: 2.5vh;
-}
-
-.pet-age {
-  font-size: 1.5vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.nice-btn {
-  display: flex;
-  align-items: center;
-}
-
-.nice-icon {
-  height: 2vh;
-  width: 2vh;
-  margin-right: 0.5vw;
-}
-
-.nice-count {
-  font-size: 2vh;
-}
-

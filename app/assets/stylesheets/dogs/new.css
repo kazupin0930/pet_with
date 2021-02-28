@@ -104,6 +104,10 @@ input#pet-image:hover {
 }
 
 textarea#pet-name.pets-text {
+  width: 50%;
+}
+
+textarea#pet-kind.pets-text {
   width: 60%;
 }
 
@@ -116,7 +120,7 @@ textarea#pet-name.pets-text {
   resize: none;
 }
 
-.pets-type {
+.pets-kind {
   margin-top: 2vh;
 }
 
@@ -183,8 +187,6 @@ textarea#pet-name.pets-text {
   text-decoration: none;
 }
 
-/* 下部ボタン */
-
 .pets-info-footer {
   background-color: #f5f5f5;
   width: 60vw;
@@ -205,8 +207,17 @@ textarea#pet-name.pets-text {
 .menu>li>a {
   color: black;
   font-size: 12px;
-  margin: 2vw;
+  margin: 5%;
+
 }
+
+input.post-btn {
+  width: 50%;
+  margin: 4% auto;
+  display: flex;
+  justify-content: center;
+}
+
 
 .inc {
   font-size: 13px;
