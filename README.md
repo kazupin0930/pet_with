@@ -8,6 +8,8 @@
 | nickname           | string     | null: false              |
 | email              | string     | null: false, unique: true|
 | encrypted_password | string     | null: false              |
+| keep_pet           | string     | null: false              |
+| number_of_pets     | string     | null: false              |
 
 
 ### Association
@@ -18,6 +20,7 @@
 - has_many   :dogs
 - has_many   :chats
 
+
 ## pets テーブル
 
 | Column              | Type       | Options          |
@@ -26,6 +29,7 @@
 
 
 ### Association
+
 - belongs_to :user
 
 
@@ -80,7 +84,6 @@
 - has_many :dogs
 - has_many :cats
 - has_many :users
-
 
 
 ##  chatテーブル
