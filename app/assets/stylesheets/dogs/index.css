@@ -1,19 +1,9 @@
-dog-main {
-
-}
-  
-.dog-title-contents {
-
-}
-
 .dog-main-title {
   background-color: rgb(227, 241, 247);
-
 }
 
 .photo-contents h2.title {
   background-color: rgb(255, 255, 255);
-
   margin-bottom: 5%;
   color: #6cb4e4;
   text-align: center;
@@ -55,6 +45,7 @@ p.dog-sub-title {
   flex-direction: column;
   align-items: center;
   padding: 5vh 0;
+  
 }
 
 .photo-contents>.title {
@@ -90,10 +81,9 @@ p.dog-sub-title {
 }
 
 .dog-img {
-  width: 40vh;
-  height: 40vh;
+  width: 44vh;
+  height: 44vh;
   border: 1px #1d1c1c solid;
-  display: flex;
   margin: 3vh 0 2px;
 }
 
@@ -102,7 +92,6 @@ p.dog-sub-title {
   color: black;
   padding: 1vw;
   border: 1px #000000 solid;
-
 }
 
 .dog-name {
