@@ -67,7 +67,7 @@ p.dog-sub-title {
   font-size: 3vh;
   margin: 1vh 0;
   text-decoration: none;
-  color: #3ccace;
+  color: #4246f8;
   font-weight: bold;
 }
 
@@ -90,14 +90,19 @@ p.dog-sub-title {
 }
 
 .dog-img {
-  width: 33vh;
-  height: 33vh;
+  width: 40vh;
+  height: 40vh;
+  border: 1px #1d1c1c solid;
+  display: flex;
+  margin: 3vh 0 2px;
 }
 
 .dog-info {
   background-color: #FFF;
   color: black;
   padding: 1vw;
+  border: 1px #000000 solid;
+
 }
 
 .dog-name {
@@ -105,9 +110,11 @@ p.dog-sub-title {
 }
 
 .dog-age {
-  font-size: 1.5vh;
+  font-size: 2vh;
   display: flex;
   justify-content: space-between;
+  padding: 0.3vh 4.2vh;
+  letter-spacing: 4px;
 }
 
 
