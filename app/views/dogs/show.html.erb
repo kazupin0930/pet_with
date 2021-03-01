@@ -1,0 +1,52 @@
+<div class="dog-show">
+  <div class="dog-box">
+    <% if user_signed_in? %>
+      <% if current_user.id == @dog.user.id %>
+      <%= link_to "画像の編集", "#", method: :get, class:"dog-edit" %>
+      <p class="or-text">or</p>
+      <%= link_to "画像の削除", dog_path, method: :delete, class:"dog-destroy" %>
+      <% end %>
+    <% end %>
+    <div class="dog-img-content">
+      <%= image_tag @dog.image, class:"dog-box-img" %>
+    </div>
+    <div class="dog-box">
+      <h2 class="dog-name">
+      <%= @dog.pet_name %>
+      </h2>
+      <span class="dog-sex">
+        <%= @dog.sex.name %>
+      </span>
+      <span class="dog-age">
+        <%= @dog.age.name %>
+      </span>
+    </div>
+    
+    <table class="detail-table">
+      <tbody>
+        <tr>
+          <th class="detail-dog">投稿者</th>
+          <td class="detail-value"><%= @dog.user.nickname %></td>
+        </tr>
+        <tr>
+          <th class="detail-dog">ペットの種類</th>
+          <td class="detail-value"><%= @dog.kind %></td>
+        </tr>
+        <tr>
+          <th class="detail-dog">ペットの性格</th>
+          <td class="detail-value"><%= @dog.personality.name %></td>
+        </tr>
+          <th class="detail-dog">ペットの体重</th>
+          <td class="detail-value"><%= @dog.weight %></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="option">
+      <div class="favorite-btn">
+        <%= image_tag "nice.png" ,class:"favorite-nice-icon" ,width:"10",height:"10"%>
+        <span>いいね</span>
+      </div>
+      <%= link_to 'もどる', dogs_path, class:"return-btn" %>
+    </div>
+  </div>
+</div>

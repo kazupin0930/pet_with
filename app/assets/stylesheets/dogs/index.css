@@ -125,3 +125,15 @@ p.dog-sub-title {
 p.copyright {
   padding-top: 30%;
 }
+
+.toTop {
+  display: inline-block;
+  background: #0bd;
+  padding: 15px;
+  margin-top: 20px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 0 6px rgb(247, 247, 247);
+  -moz-box-shadow: inset 0 0 6px rgb(255, 255, 255);
+  box-shadow: inset 0 0 6px rgb(255, 255, 255);
+}
