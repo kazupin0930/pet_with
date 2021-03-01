@@ -6,5 +6,6 @@ class Sex < ActiveHash::Base
   ]
 
   include ActiveHash::Associations
-  has_many :pets
+  has_many :dogs
+  has_many :cats
 end

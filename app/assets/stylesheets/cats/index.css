@@ -2,16 +2,16 @@
   background-color: rgb(216, 251, 255)
 }
 
-.photo-contents h2.title {
+h2.cat-title {
   background-color: rgb(255, 255, 255);
   margin-bottom: 5%;
-  color: #6cb4e4;
+  color: #ff811b;
   text-align: center;
-  padding: 0.25em;
-  border-top: solid 2px #6cb4e4;
-  border-bottom: solid 2px #6cb4e4;
+  padding: 0.7em;
+  border-top: solid 2px #ff841f;
+  border-bottom: solid 2px #e97325;
   background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-  background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #fddfd4, #f3e4d7 3px,#ffcdba 3px, #e9f4ff 7px);
 }
 
 .dog-sub-title {
@@ -27,12 +27,14 @@ a.dog-sub-title:hover {
   text-decoration: underline;
 }
 
-p.dog-sub-title {
+p.cat-sub-title {
   font-size: 3vh;
   font-weight: bold;
   display: block; 
-  border-bottom: double 5px #FFC778;
-  text-shadow: 0 0 6px rgb(252, 142, 142);
+  border-bottom: double 5px #ff7878;
+  padding: 2%;
+  background-color: rgb(216, 251, 255);
+  text-shadow: 0 0 6px rgb(252, 83, 41);
   color: rgb(37, 37, 37);
 }
 

@@ -94,7 +94,7 @@ input:hover {
   font-size: 3vh;
   padding: 10%;
   margin: 0 10%;
-  background-color:rgb(227, 241, 247);
+  background-color:rgb(216, 251, 255);
 }
 
 .table {
@@ -132,7 +132,11 @@ input:hover {
 h2.page-heading {
   padding: 3% 15% 5% 15%;
   margin: 8%;
-  background-color: rgb(221, 215, 215);
+  background-color: rgb(252, 202, 202);
+}
+
+a.dog-sub-title {
+  background-color: rgb(216, 251, 255);
 }
 
 /*ユーザー詳細*/

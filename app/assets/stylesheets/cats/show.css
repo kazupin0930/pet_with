@@ -1,0 +1,127 @@
+.dog-show {
+  background-color: #faeeee;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 0;
+}
+
+.dog-box {
+  background-color: #FFF;
+  height: auto;
+  width: 100%;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dog-box>.dog-name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 5vh;
+  background-color: white;
+}
+
+.dog-box-img {
+  height: 46.5vh;
+  width: 100%;
+  background-color: rgb(205, 202, 202);
+  object-fit: contain;
+  background-color: white;
+}
+
+.dog-edit  {
+  text-align: center;
+  font-size: 3vh;
+  color:rgba(252, 132, 19, 0.863);
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 2vh 10vw;
+}
+
+.or-text {
+  font-size: 2vh;
+}
+
+.dog-destroy {
+  text-align: center;
+  font-size: 3vh;
+  color: rgba(252, 132, 19, 0.863);
+  margin: 10px 0px;
+  padding: 2vh 10vw;
+}
+
+/* 詳細*/
+
+.detail-table {
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.detail-dog {
+  text-align: center;
+  font-weight: bold;
+  background: #e2fffb;
+  border-collapse: collapse;
+  border: 1px solid #ff5e00;
+  width: 30%;
+  padding: 8px;
+  margin-left: 15%;
+}
+
+td.detail-value {
+  text-align: center;
+  border: 1px solid #202020;
+  border-collapse: collapse;
+  width: 70%;
+  padding: 16px 8px;
+  font-weight: bold;
+}
+
+/* 詳細*/
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.favorite-btn {
+  border-radius: 40px;
+  width: 15vw;
+  min-width: 200px;
+  color: rgb(249, 75, 0);
+  border: 2px solid #ffb340;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
+.favorite-nice-icon {
+  margin-right: 5px;
+}
+
+.favorite-btn {
+  margin: 2vh;
+}
+
+.return-btn {
+  color: rgb(255, 251, 251);
+  background-color: rgb(8, 8, 8);
+  padding: 1vh 2vh;
+  text-decoration: none;
+  margin: 1vw;
+}
+
+
+.return-btn:hover {
+  color: rgb(8, 8, 8);
+  background-color: rgb(255, 215, 215);
+  padding: 1vh 2vh;
+  text-decoration: none;
+  margin: 1vw;
+}
