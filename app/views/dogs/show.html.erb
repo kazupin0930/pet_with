@@ -2,7 +2,7 @@
   <div class="dog-box">
     <% if user_signed_in? %>
       <% if current_user.id == @dog.user.id %>
-      <%= link_to "画像の編集", "#", method: :get, class:"dog-edit" %>
+      <%= link_to "画像の編集", edit_dog_path, method: :get, class:"dog-edit" %>
       <p class="or-text">or</p>
       <%= link_to "画像の削除", dog_path, method: :delete, class:"dog-destroy" %>
       <% end %>
@@ -14,12 +14,6 @@
       <h2 class="dog-name">
       <%= @dog.pet_name %>
       </h2>
-      <span class="dog-sex">
-        <%= @dog.sex.name %>
-      </span>
-      <span class="dog-age">
-        <%= @dog.age.name %>
-      </span>
     </div>
     
     <table class="detail-table">
@@ -29,13 +23,22 @@
           <td class="detail-value"><%= @dog.user.nickname %></td>
         </tr>
         <tr>
-          <th class="detail-dog">ペットの種類</th>
+          <th class="detail-dog">ペットの品種</th>
           <td class="detail-value"><%= @dog.kind %></td>
         </tr>
         <tr>
           <th class="detail-dog">ペットの性格</th>
           <td class="detail-value"><%= @dog.personality.name %></td>
         </tr>
+        <tr>
+          <th class="detail-dog">ペットの性別</th>
+          <td class="detail-value"><%= @dog.sex.name %></td>
+        </tr>
+        <tr>
+          <th class="detail-dog">ペットの年齢</th>
+          <td class="detail-value"><%= @dog.age.name %></td>
+        </tr>
+        <tr>
           <th class="detail-dog">ペットの体重</th>
           <td class="detail-value"><%= @dog.weight %></td>
         </tr>

@@ -16,11 +16,29 @@ class DogsController < ApplicationController
     else
       render :new
     end
+  end
 
-    def show
+  def show
       @dog = Dog.find(params[:id])
+  end
+
+  def edit
+    @dog = Dog.find(params[:id])
+    unless @dog.user_id == current_user.id
+      redirect_to root_path
     end
   end
+
+  def update
+    @dog = Dog.find(params[:id])
+    if @dog.update(dog_params)
+      redirect_to dogs_path, method: :get
+    else
+      render :edit
+    end
+  end
+
+
 
   private
 
