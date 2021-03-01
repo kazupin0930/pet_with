@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   root to: "pets#index"
   resources :pets, only: [:index]
   resources :users, only: [:show]
-  resources :dogs, only: [:index, :new, :create, :show, :edit, :update]
+  resources :dogs do
+  end
+
 end

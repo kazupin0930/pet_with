@@ -1,5 +1,5 @@
 class DogsController < ApplicationController
-
+  before_action :set_item, only: [:show, :edit, :update, :destroy]
   
   def index
     @dogs = Dog.all.order('created_at DESC') 
@@ -19,18 +19,15 @@ class DogsController < ApplicationController
   end
 
   def show
-      @dog = Dog.find(params[:id])
   end
 
   def edit
-    @dog = Dog.find(params[:id])
     unless @dog.user_id == current_user.id
       redirect_to root_path
     end
   end
 
   def update
-    @dog = Dog.find(params[:id])
     if @dog.update(dog_params)
       redirect_to dogs_path, method: :get
     else
@@ -38,11 +35,18 @@ class DogsController < ApplicationController
     end
   end
 
-
+  def destroy
+    @dog.destroy
+    redirect_to dogs_path, method: :get
+  end
 
   private
 
   def dog_params
     params.require(:dog).permit(:image, :pet_name, :kind, :personality_id, :age_id, :sex_id, :weight).merge(user_id: current_user.id)
+  end
+
+  def set_item
+    @dog = Dog.find(params[:id])
   end
 end
