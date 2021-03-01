@@ -12,7 +12,7 @@
   
     <% @dogs.each do |dog| %>
     <li class='list'>
-      <%= link_to dogs_path, method: :get do %>
+      <%= link_to dog_path(dog.id), method: :get do %>
       <div class='pet-img-content'>
         <%= image_tag dog.image, class: "dog-img" %>
       </div>
@@ -52,8 +52,7 @@
     </li>
     <% end %>
   </ul>
-
-
+  <p class="toTop">Top Pageへ</p>
   <footer class="footer">
     <p class="copyright"> @PetWith 2021 </p>
   </footer>

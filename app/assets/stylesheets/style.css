@@ -110,7 +110,7 @@ a.top-list {
   font-size: 40px;
   padding-top: 25px;
   display: block;
-  background: -webkit-linear-gradient(rgb(214, 248, 248), #39f);
+  background: -webkit-linear-gradient(rgb(206, 238, 238), rgb(47, 74, 224));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,6 +131,13 @@ a.logout:hover {
 
 .nav {
   background-color: rgb(247, 228, 204);
+  background-image: linear-gradient(
+                        -45deg,
+                        #f8cc99 20%,
+                        #ff5e00 40%,
+                        #3af5e5 53%,
+                        #cffff9 10%);
+                        box-shadow: inset 0 0 6px rgb(47, 49, 49);
 }
 
 /* header */
@@ -491,14 +498,16 @@ ul {
  
 #footer01 .nav a {
   display: flex;
-  padding: 0 10px;
+  padding: 2vh;
   color: rgb(51, 49, 49);
   justify-content: space-around;
+  transition: all 0.2s;
 }
- 
 
 #footer01 .nav a:hover {
-  color: rgb(255, 182, 46);
+  color: rgb(0, 0, 0);
+  transform: scale(1.2, 1.2);
+  box-shadow: 4px 4px 4px;
 }
 
 .copyright {
