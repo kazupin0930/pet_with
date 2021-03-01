@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   resources :users, only: [:show]
   resources :dogs do
   end
+  resources :cats do
+  end
 
 end
