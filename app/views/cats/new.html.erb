@@ -1,0 +1,102 @@
+<div class="cats-contents">
+  <header class="pets-iamge-header">
+    <%= link_to image_tag('button-icon2.png', size: '190x100'), "/" %>
+
+  </header>
+  <div class="pets-info-main">
+    <h2 class="cats-info-title">ペットの情報を入力</h2>
+  <%= form_with model: @cat, url: cats_path, local: true do |f| %>
+
+    <%#= render 'shared/error_messages', model: f.object %>
+
+    <%# 投稿画像 %>
+    <div class="img-upload">
+      <div class="weight-bold-text">
+        画像投稿
+        <span class="indispensable">必須</span>
+      </div>
+      <div class="click-upload">
+        <p>
+          クリックしてファイルをアップロード
+        </p>
+        <%= f.file_field :image, id:"pet-image" %>
+      </div>
+    </div>
+    <%# 投稿画像 %>
+    <%# 名前とペットの種類 %>
+    <div class="new-pets">
+      <div class="weight-bold-text">
+        ペットの名前
+        <span class="indispensable">必須</span>
+      </div>
+      <%= f.text_area :pet_name, class:"pets-text", id:"pet-name", placeholder:"名前をご記入ください" %>
+      <div class="pets-kind">
+        <div class="weight-bold-text">
+          ペットの品種
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.text_area :kind, class:"pets-text", id:"pet-kind", placeholder:"ペットの種類" %>
+      </div>
+    </div>
+    <%# 名前とペットの種類 %>
+
+    <%# 性格と年齢と性別と重さ %>
+    <div class="pets-detail">
+
+        <div class="form">
+          <div class="weight-bold-text">
+            性格
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:personality_id, Personality.all, :id, :name, {}, {class:"select-box", id:"pet-personality"}) %>
+          <div class="weight-bold-text">
+            年齢
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:age_id, Age.all, :id, :name, {}, {class:"select-box", id:"pet-age"}) %>
+          <div class="weight-bold-text">
+            性別
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.collection_select(:sex_id, Sex.all, :id, :name, {}, {class:"select-box", id:"pet-sex"}) %>
+          <div class="weight-bold-text">
+            体重
+            <span class="indispensable">必須</span>
+          </div>
+          <%= f.text_area :weight, class:"pets-text", id:"pet-info", placeholder:"(~kg, ~g)" %>
+        </div>
+
+    </div>
+    <%# 性格と年齢と性別と重さ %>
+
+    <%# 注意書き %>
+    <div class="caution">
+      <p class="sentence">
+        <a href="#">本人が特定できるような画像、</a>
+        <a href="#">住所が特定されるような画像、</a>
+        <a href="#">ペットと関係のない画像、</a>
+        必ずご自身で大丈夫かご確認ください。
+      </p>
+    </div>
+    <%# 注意書き %>
+
+    <%# 下部ボタン %>
+    <div class="post-btn-contents">
+      <%= f.submit  "画像を投稿する", class:"post-btn" %>
+      <%= link_to 'もどる', root_path, class:"back-btn" %>
+    </div>
+    <%# 下部ボタン %>
+  </div>
+  <% end %>
+
+  <footer class="pets-info-footer">
+    <ul class="menu">
+      <li><a href="#">プライバシーポリシー</a></li>
+      <li><a href="#">利用規約</a></li>
+    </ul>
+    <%= link_to image_tag('button-icon2.png', size: '190x100'), "/" %>
+    <p class="inc">
+      @2021 WithPet
+    </p>
+  </footer>
+</div>

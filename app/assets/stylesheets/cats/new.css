@@ -1,5 +1,5 @@
-.pets-contents {
-  background-color: #e6ffff;
+.cats-contents {
+  background-color: #ffece1;
   font-family: "Source Sans Pro", Helvetica, Arial, "æ¸¸ã‚´ã‚·ãƒƒã‚¯ä½“", "YuGothic", "ãƒ¡ã‚¤ãƒªã‚ª", "Meiryo", sans-serif;
   font-size: 20px;
   display: flex;
@@ -21,14 +21,14 @@
   border-radius: 100px;
 }
 
-.pets-info-title {
+.cats-info-title {
   font-size: 23px;
   font-weight: bold;
   text-align: center;
   position: relative;
   padding: 0.2em 0.5em;
-  background: -webkit-linear-gradient(to right, rgb(255, 124, 111), #ffc994);
-  background: linear-gradient(to right, rgb(236, 63, 47), #fae0c7);
+  background: -webkit-linear-gradient(to right, rg rgb(223, 220, 255), #dde4fc);
+  background: linear-gradient(to right, rgb(28, 43, 248), #ffe7e7);
   color: white;
   font-weight: lighter;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.56);
@@ -240,6 +240,8 @@ a.back-btn:hover {
   font-size: 12px;
   margin: 5%;
 }
+
+
 
 input.post-btn {
   width: 50%;
