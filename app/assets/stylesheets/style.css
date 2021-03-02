@@ -107,12 +107,13 @@ p.main-title {
 
 a.top-list {
   color: rgb(40, 123, 218);
-  font-size: 40px;
-  padding-top: 25px;
+  font-size: 6vh;
+  padding-top: 7%;
   display: block;
   background: -webkit-linear-gradient(rgb(206, 238, 238), rgb(47, 74, 224));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Homemade Apple', cursive;
 }
 
 a.logout {

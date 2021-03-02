@@ -40,10 +40,11 @@ a.sign-up:hover {
 
 a {
   color: #131313;
+  font-weight: bold;
 }
 
 .form__text {
-  width: 40%;
+  width: 30%;
 }
 
 .field{
@@ -67,6 +68,17 @@ a {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
   transition: 0.1s ease;
 }
+
+textarea#user_keep_pet.form__text {
+  max-width: 100%;
+  padding: 1vh;
+}
+
+textarea#user_number_of_pets.form__text {
+  max-width: 100%;
+  padding: 1vh;
+}
+
 /*新規登録画面*/
 
 /*ログイン画面*/

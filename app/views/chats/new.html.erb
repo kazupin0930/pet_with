@@ -1,0 +1,10 @@
+<h3>Chats#new</h3>
+<%= form_with model: @chat do |f| %>
+  <%= f.text_field :text %>
+  <%= f.submit '送信' %>
+<% end %>
+<div id='chat'>
+  <% @chat.reverse_each do |chat| %>
+    <p><%= chat.text %></p>
+  <% end %>
+</div>
