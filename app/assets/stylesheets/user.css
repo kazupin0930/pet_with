@@ -2,13 +2,44 @@
 
 .form__wrapper{
   min-height: calc(100vh - 161px);
-  background-color: #dafeff;
+  background-color: #e1fdef;
+  margin: 4%;
+  padding: 1vh;
 }
 
 input#user_nickname {
   background-color: white;
   color: #131313;
   padding: 1% 7% 1% 7%; 
+}
+
+a.login {
+  font-size: 2.5vh;
+  color: black;
+  text-shadow: 0 0 6px #666;
+  color: #fff;
+}
+
+a.login:hover {
+  color: #131313;
+}
+
+
+a.sign-up {
+  font-size: 2.5vh;
+  color: black;
+  position: relative;
+  top: 4vh;
+  text-shadow: 0 0 6px #666;
+  color: #fff;
+}
+
+a.sign-up:hover {
+  color:#131313;
+}
+
+a {
+  color: #131313;
 }
 
 .form__text {
@@ -91,15 +122,15 @@ input:hover {
 
 .user__wrapper {
   min-height: calc(100vh - 161px);
-  font-size: 3vh;
+  font-size: 2.6vh;
   padding: 10%;
-  margin: 0 10%;
+  margin: 4%;
   background-color:rgb(216, 251, 255);
 }
 
 .table {
   border-collapse: collapse;
-  margin: 0 0 16% 15% ;
+  margin: 17% 0 15% 15%;
   width: 70%;
 }
 
@@ -119,7 +150,7 @@ input:hover {
   border: 1px solid #131313;
   border-collapse: collapse;
   width: 70%;
-  padding: 16px 8px;
+  padding: 10px 8px;
 }
 
 .user__card {

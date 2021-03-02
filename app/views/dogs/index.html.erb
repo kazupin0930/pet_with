@@ -6,54 +6,55 @@
   </p>
 
   <div class='photo-contents'>
-  <h2 class='title'>みんなのわんこ投稿広場</h2>
-  <%= link_to '新規投稿写真', "#", class: "subtitle" %>
-  <ul class='item-lists'>
-  
-    <% @dogs.each do |dog| %>
-    <li class='list'>
-      <%= link_to dog_path(dog.id), method: :get do %>
-      <div class='pet-img-content'>
-        <%= image_tag dog.image, class: "dog-img" %>
-      </div>
-      <div class='dog-info'>
-        <h3 class='dog-name'>
-          <%= dog.pet_name %>
-        </h3>
-        <div class='dog-age'>
-          <span><%= dog.age.name %><%= dog.sex.name %></span>
-          <div class='nice-btn'>
-            <%= image_tag "nice.png", class:"nice-icon" %>
-            <span class='nice-count'>0</span>
+    <h2 class='dog-title'>みんなのわんこ投稿広場</h2>
+    <%= link_to '新規投稿写真', "#", class: "subtitle" %>
+    <ul class='item-lists'>
+    
+      <% @dogs.each do |dog| %>
+      <li class='list'>
+        <%= link_to dog_path(dog.id), method: :get do %>
+        <div class='pet-img-content'>
+          <%= image_tag dog.image, class: "dog-img" %>
+        </div>
+        <div class='dog-info'>
+          <h3 class='dog-name'>
+            <%= dog.pet_name %>
+          </h3>
+          <div class='dog-age'>
+            <span><%= dog.age.name %><%= dog.sex.name %></span>
+            <div class='nice-btn'>
+              <%= image_tag "nice.png", class:"nice-icon" %>
+              <span class='nice-count'>0</span>
+            </div>
           </div>
         </div>
-      </div>
+        <% end %>
+      </li>
       <% end %>
-    </li>
-    <% end %>
 
-    <% if @dogs.length == 0 %>
-    <li class='list'>
-      <%= link_to '#' do %>
-      <%= image_tag "dog-fot3", class: "dog-img" %>
-      <div class='dog-info'>
-        <h3 class='pet-name'>
-          画像を投稿しよう！
-        </h3>
-        <div class='dog-name'>
-          <span>レオン</span>
-          <div class='nice-btn'>
-            <%= image_tag "nice.png", class:"nice-icon" %>
-            <span class='nice-count'>0</span>
+      <% if @dogs.length == 0 %>
+      <li class='list'>
+        <%= link_to '#' do %>
+        <%= image_tag "dog-fot3", class: "dog-img" %>
+        <div class='dog-info'>
+          <h3 class='pet-name'>
+            画像を投稿しよう！
+          </h3>
+          <div class='dog-name'>
+            <span>レオン</span>
+            <div class='nice-btn'>
+              <%= image_tag "nice.png", class:"nice-icon" %>
+              <span class='nice-count'>0</span>
+            </div>
           </div>
         </div>
-      </div>
+        <% end %>
+      </li>
       <% end %>
-    </li>
-    <% end %>
-  </ul>
-  <p class="toTop">Top Pageへ</p>
-  <footer class="footer">
-    <p class="copyright"> @2021 PetWith </p>
-  </footer>
+    </ul>
+    <p class="toTop">Top Pageへ</p>
+    <footer class="footer">
+      <p class="copyright"> @2021 PetWith </p>
+    </footer>
+  </div>
 </div>
