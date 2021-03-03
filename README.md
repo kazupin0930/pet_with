@@ -91,6 +91,7 @@
 | Column       | Type       | Options           |
 | ------       | ---------- | --------          |
 | text         | text       | null: false       |
+| checked      | boolean    | null: false       |
 | user         | references | foreign_key: true |
 
 

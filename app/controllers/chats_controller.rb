@@ -2,22 +2,22 @@ class ChatsController < ApplicationController
 
 
   def index
-    @posts = Post.all.order(id: "DESC")
+    @chat = Chat.all.order(id: "DESC")
   end
 
   def create
-    post = Post.create(content: params[:content], checked: false)
-    render json:{ post: post }
+    chat = Chat.create(text: params[:text], checked: false)
+    render json:{ chat: chat }
   end
 
   def checked
-    post = Post.find(params[:id])
-    if post.checked
-      post.update(checked: false)
+    chat = chat.find(params[:id])
+    if chat.checked
+      chat.update(checked: false)
     else
-      post.update(checked: true)
+      chat.update(checked: true)
     end
     item = Post.find(params[:id])
-    render json: { post: item }
+    render json: { chat: item }
   end
 end

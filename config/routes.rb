@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   end
   resources :cats do
   end
-  resources :chat, only: [:new, :create]
+  resources :chats, only: [:index, :new, :create]
 
 end
