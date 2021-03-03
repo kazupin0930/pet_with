@@ -11,7 +11,6 @@ class Cat < ApplicationRecord
     validates :image
     validates :pet_name
     validates :kind
-    validates :weight
   end
 
   with_options numericality: { other_than: 1 } do
