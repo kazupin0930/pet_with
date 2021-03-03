@@ -111,6 +111,7 @@ a.top-list {
   padding-top: 7%;
   display: block;
   background: -webkit-linear-gradient(rgb(206, 238, 238), rgb(47, 74, 224));
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Homemade Apple', cursive;

@@ -1,4 +1,5 @@
 class Chat < ApplicationRecord
 
-  has_many :users
+  belongs_to :pet
+  has_many   :users
 end
