@@ -84,6 +84,12 @@ a {
   position: relative;
 }
 
+.pet-name {
+  position: relative;
+  bottom: 0.5em;
+  font-size: 1.6vh;
+}
+
 .dog-img {
   width: 44vh;
   height: 44vh;

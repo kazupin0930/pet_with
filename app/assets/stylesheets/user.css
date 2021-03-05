@@ -2,9 +2,15 @@
 
 .form__wrapper{
   min-height: calc(100vh - 161px);
-  background-color: #e1fdef;
-  margin: 4%;
+  margin: 1vh;
   padding: 1vh;
+  background-image: url("sea.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+label {
+  font-size: 2.2vh;
 }
 
 input#user_nickname {
@@ -86,7 +92,6 @@ textarea#user_number_of_pets.form__text {
 h2 {
   padding-top: 10%; 
   font-size: 4vh;
-  background-color: rgb(252, 234, 234);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +100,7 @@ h2 {
 
 form#new_user.new_user {
   padding: 10%;
-  background-color: rgb(213, 248, 238);
+  background-image: url("field.jpg")
 }
 
 input#user_email {
@@ -136,8 +141,48 @@ input:hover {
   min-height: calc(100vh - 161px);
   font-size: 2.6vh;
   padding: 10%;
-  margin: 4%;
-  background-color:rgb(216, 251, 255);
+  background-image: url("field1.jpg");
+  max-width: 100%;
+}
+
+.user-heading-name {
+  background-color: rgb(248, 245, 245);
+  margin: 0 auto;
+  width: 65%;
+  position: relative;
+  bottom: 3vh;
+  border: solid 3px #2a58e0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-shadow: 0 0 6px rgb(0, 38, 255);
+  color: rgb(255, 255, 255);
+
+}
+
+.dog-third1-title {
+  position: relative;
+  bottom: 4vh;
+  padding: 3px;
+  color: rgb(139, 138, 134);
+  font-size: 2vh;
+}
+
+.dog-third1-title:hover {
+  color:orangered;
+  text-decoration: underline;
+}
+
+.dog-third-title {
+  position: relative;
+  bottom: 3vh;
+  padding: 3px;
+  color: rgb(233, 198, 109);
+  font-size: 2vh;
+}
+
+.dog-third-title:hover {
+  color: orangered;
+  text-decoration: underline;
 }
 
 .table {
@@ -149,9 +194,8 @@ input:hover {
 .table__col1 {
   text-align: left;
   font-weight: bold;
-  background: #f7e6e6;
   border-collapse: collapse;
-  border: 1px solid #fd0303;
+  border: 1px solid #1d19da;
   width: 30%;
   padding: 8px;
   margin-left: 15%;
@@ -159,7 +203,7 @@ input:hover {
 
 .table__col2 {
   text-align: left;
-  border: 1px solid #131313;
+  border: 1px solid #1220e2;
   border-collapse: collapse;
   width: 70%;
   padding: 10px 8px;
@@ -173,9 +217,8 @@ input:hover {
 }
 
 h2.page-heading {
-  padding: 3% 15% 5% 15%;
-  margin: 8%;
-  background-color: rgb(252, 202, 202);
+  padding: 4% 15% 5% 15%;
+  margin: 2%;
 }
 
 a.dog-sub-title {

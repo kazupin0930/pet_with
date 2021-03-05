@@ -20,7 +20,7 @@
       <tbody>
         <tr>
           <th class="detail-dog">投稿者</th>
-          <td class="detail-value"><%= @dog.user.nickname %></td>
+          <td class="detail-value"><%= link_to @dog.user.nickname, user_path(@dog.user.id) %></td>
         </tr>
         <tr>
           <th class="detail-dog">ペットの品種</th>
