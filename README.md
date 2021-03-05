@@ -86,18 +86,43 @@
 - has_many :users
 
 
-##  chatテーブル
+## rooms テーブル
 
-| Column       | Type       | Options           |
-| ------       | ---------- | --------          |
-| text         | text       | null: false       |
-| checked      | boolean    | null: false       |
-| user         | references | foreign_key: true |
+| Column | Type   | Options     |
+| ------ | ------ | ----------- |
+| name   | string | null: false |
 
+###Association
+
+- has_many :room_users
+- has_many :users, through: room_users
+- has_many :messages
+
+
+## room_users テーブル
+
+| Column | Type       | Options                        |
+| ------ | ---------- | ------------------------------ |
+| user   | references | null: false, foreign_key: true |
+| room   | references | null: false, foreign_key: true |
 
 ### Association
 
-- has_many   :users
+- belongs_to :room
+- belongs_to :user
+
+## messages テーブル
+
+| Column  | Type       | Options                        |
+| ------- | ---------- | ------------------------------ |
+| content | string     |                                |
+| user    | references | null: false, foreign_key: true |
+| room    | references | null: false, foreign_key: true |
+
+### Association
+
+- belongs_to :room
+- belongs_to :user
 
 
 アプリケーション名: PetWith
