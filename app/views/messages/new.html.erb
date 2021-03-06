@@ -1,0 +1,20 @@
+<%= link_to 'メイントップへ', pets_path, method: :get, class: "message-sub-title" %>
+<div class="chat-main">
+  <h3>匿名<br>お気楽チャットルーム<br></h3>
+  <%= form_with model: @message do |f| %>
+  <div class="form-message-input">
+      <%= f.text_field :text, class: 'form-message1', placeholder: 'こちらから記入' %>
+    </div>
+    <%= f.submit '送信', class: 'form-message-submit' %>
+    <div class="line">
+    </div>
+  <% end %>
+  <div id='messages'>
+    <% @messages.reverse_each do |message| %>
+      <p><%= message.text %></p>
+
+    <% end %>
+
+  </div>
+
+</div>

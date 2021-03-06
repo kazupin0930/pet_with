@@ -9,7 +9,7 @@ class User < ApplicationRecord
   belongs_to :pet, optional: true
   has_many   :cats
   has_many   :dogs
-  has_many   :chats
+  has_many   :messages
 
   validates :nickname,       presence: true
   validates :keep_pet,       presence: true
