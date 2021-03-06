@@ -18,7 +18,7 @@
 - belongs_to :pet
 - has_many   :cats
 - has_many   :dogs
-- has_many   :chats
+- has_many   :messages
 
 
 ## pets テーブル
@@ -86,18 +86,17 @@
 - has_many :users
 
 
-##  chatテーブル
+##  messageテーブル
 
 | Column       | Type       | Options           |
 | ------       | ---------- | --------          |
 | text         | text       | null: false       |
-| checked      | boolean    | null: false       |
-| user         | references | foreign_key: true |
 
 
 ### Association
 
 - has_many   :users
+- belongs_to :pet
 
 
 アプリケーション名: PetWith
@@ -155,7 +154,7 @@ URL: (デプロイ済みのURLを記述しましょう)
 
 ###チャット機能
 **目的**
-ユーザー同士が気軽に意見交換できるようにする為の機能。
+誰でも気軽に意見交換できるようにする為の機能。
 
 
 ###いいね機能
