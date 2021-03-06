@@ -15,12 +15,11 @@
       <%= @cat.pet_name %>
       </h2>
     </div>
-    
     <table class="detail-table">
       <tbody>
         <tr>
           <th class="detail-dog">投稿者</th>
-          <td class="detail-value"><%= @cat.user.nickname %></td>
+          <td class="detail-value"><%= link_to @cat.user.nickname, user_path(@cat.user.id) %></td>
         </tr>
         <tr>
           <th class="detail-dog">ペットの品種</th>

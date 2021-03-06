@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'messages/new'
+  get 'messages/index'
   devise_for :users
   root to: "pets#index"
   resources :pets, only: [:index]
@@ -7,5 +9,5 @@ Rails.application.routes.draw do
   end
   resources :cats do
   end
-
+  resources :messages, only: [:new, :create]
 end

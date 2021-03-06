@@ -5,7 +5,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-width: 500px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .pets-image-header {
@@ -173,7 +174,7 @@ textarea#pet-info.pets-text {
 /* 注意書き */
 .caution {
   padding: 5% 10%;
-  background-color: rgb(248, 230, 227);
+  background-color: rgb(235, 234, 255);
   margin: 5%;
 }
 
