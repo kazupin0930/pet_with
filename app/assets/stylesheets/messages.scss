@@ -81,3 +81,18 @@
 .hidden {
   display: none;
 }
+
+.message-date {
+  border: 1px solid;
+  max-width: 100%;
+  width: 40vh;
+  margin: 2vh auto;
+  display: flex;
+  justify-content: center;
+  padding: 0.7vh;
+  background-color: rgb(226, 223, 223);
+}
+
+.message-text {
+  margin: 0 auto;
+}
