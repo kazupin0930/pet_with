@@ -1,0 +1,228 @@
+/* 新規登録画面 */
+
+.form__wrapper{
+  min-height: calc(100vh - 161px);
+  margin: 1vh;
+  padding: 1vh;
+  background-image: url("/images/sea.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+label {
+  font-size: 2.2vh;
+}
+
+input#user_nickname {
+  background-color: white;
+  color: #131313;
+  padding: 1% 7% 1% 7%; 
+}
+
+a.login {
+  font-size: 2.5vh;
+  color: black;
+  text-shadow: 0 0 6px #666;
+  color: #fff;
+}
+
+a.login:hover {
+  color: #131313;
+}
+
+
+a.sign-up {
+  font-size: 2.5vh;
+  color: black;
+  position: relative;
+  top: 4vh;
+  text-shadow: 0 0 6px #666;
+  color: #fff;
+}
+
+a.sign-up:hover {
+  color:#131313;
+}
+
+a {
+  color: #131313;
+  font-weight: bold;
+}
+
+.form__text {
+  width: 30%;
+}
+
+.field{
+  margin: 2% 0;
+}
+
+.actions{
+  margin-bottom: 20px;
+}
+
+.form__btn{
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 0.8em;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #87CEFA;
+  border: 1px #87CEFA solid;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  transition: 0.1s ease;
+}
+
+textarea#user_keep_pet.form__text {
+  max-width: 100%;
+  padding: 1vh;
+}
+
+textarea#user_number_of_pets.form__text {
+  max-width: 100%;
+  padding: 1vh;
+}
+
+/*新規登録画面*/
+
+/*ログイン画面*/
+
+h2 {
+  padding-top: 10%; 
+  font-size: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
+form#new_user.new_user {
+  padding: 10%;
+  background-image: image-url("field.jpg")
+}
+
+input#user_email {
+  padding: 2% 7% 2% 7%;
+  background-color: white;
+  color:rgb(0, 0, 0);
+}
+
+input#user_password {
+  padding: 2% 7% 2% 7%;
+  background-color: white;
+  color: #131313;
+}
+
+input#user_password_confirmation {
+  padding: 2% 7% 2% 7%;
+  background-color: white;
+  color: #131313;
+}
+
+input {
+  color: white;
+  background: #87CEFA;
+  border: 1px #87CEFA solid;
+  padding: 1.3%;
+}
+
+input:hover {
+  color: rgb(212, 211, 211);
+  background-color: rgb(230, 67, 67);
+}
+
+/*ログイン画面*/
+
+/* ユーザー詳細 */
+
+.user__wrapper {
+  min-height: calc(100vh - 161px);
+  font-size: 2.6vh;
+  padding: 10%;
+  background-image: image-url("field1.jpg");
+  max-width: 100%;
+}
+
+.user-heading-name {
+  background-color: rgb(248, 245, 245);
+  margin: 0 auto;
+  width: 65%;
+  position: relative;
+  bottom: 3vh;
+  border: solid 3px #2a58e0;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-shadow: 0 0 6px rgb(0, 38, 255);
+  color: rgb(255, 255, 255);
+
+}
+
+.dog-third1-title {
+  position: relative;
+  bottom: 4vh;
+  padding: 3px;
+  color: rgb(139, 138, 134);
+  font-size: 2vh;
+}
+
+.dog-third1-title:hover {
+  color:orangered;
+  text-decoration: underline;
+}
+
+.dog-third-title {
+  position: relative;
+  bottom: 3vh;
+  padding: 3px;
+  color: rgb(233, 198, 109);
+  font-size: 2vh;
+}
+
+.dog-third-title:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 17% 0 15% 15%;
+  width: 70%;
+}
+
+.table__col1 {
+  text-align: left;
+  font-weight: bold;
+  border-collapse: collapse;
+  border: 1px solid #1d19da;
+  width: 30%;
+  padding: 8px;
+  margin-left: 15%;
+}
+
+.table__col2 {
+  text-align: left;
+  border: 1px solid #1220e2;
+  border-collapse: collapse;
+  width: 70%;
+  padding: 10px 8px;
+}
+
+.user__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2.page-heading {
+  padding: 4% 15% 5% 15%;
+  margin: 2%;
+}
+
+a.dog-sub-title {
+  background-color: rgb(216, 251, 255);
+}
+
+/*ユーザー詳細*/
