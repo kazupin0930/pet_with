@@ -1632,7 +1632,7 @@ h2 {
 
 form#new_user.new_user {
   padding: 10%;
-  background-image: url("/images/field.jpg")
+  background-image: image-url("field.jpg")
 }
 
 input#user_email {
@@ -1673,7 +1673,7 @@ input:hover {
   min-height: calc(100vh - 161px);
   font-size: 2.6vh;
   padding: 10%;
-  background-image: url("/images/field1.jpg");
+  background-image: image-url("field1.jpg");
   max-width: 100%;
 }
 
