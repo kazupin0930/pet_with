@@ -131,6 +131,9 @@
 ペットを見て癒されたい人。
 このアプリケーションを通して、より犬や猫を好きになって欲しい。
 
+**ポートフォリオ(Googleスライド)**
+https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn9K0/edit#slide=id.gc3f0e6038d_0_34
+
 **画像投稿機能**:
 自身のお気に入りのペットの画像を共有し合う為の機能。
 
@@ -164,5 +167,5 @@
 保守、運用の意味合いで、本番環境でも実際に思うように動作
 するかのテスト。
 
-**ローカルでの動作方法**:
-Ruby(2.6.5), Ruby on Rails(6.0.3.5), Node.js(15.4.0), MySQL(5.6.50), Git(2.24.3)
+**開発環境**:
+Ruby(2.6.5), Ruby on Rails(6.0.3.5), Node.js(15.4.0), MySQL(5.6.50), Git(2.24.3), VScode
