@@ -6,7 +6,7 @@ Rails.application.configure do
 
   ActionCable.server.config.disable_request_forgery_protection = true
   config.action_cable.url = "ws://35.73.72.206/cable" 
-  config.action_cable.allowed_request_origins = ['http://35.73.72.206', /https:\/\/35.73.72.206.*/ ]
+  config.action_cable.allowed_request_origins = ['http://35.73.72.206']
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
