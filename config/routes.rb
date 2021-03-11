@@ -10,5 +10,4 @@ Rails.application.routes.draw do
   resources :cats do
   end
   resources :messages, only: [:new, :create]
-  mount ActionCable.server, => '/cable'
 end
