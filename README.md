@@ -181,3 +181,5 @@ https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn
 
 **開発環境**:
 Ruby(2.6.5), Ruby on Rails(6.0.3.5), JavaScript, JQuery, MySQL(5.6.50), Github, VScode, AWS(EC2)
+
+![ER図](test.png)
