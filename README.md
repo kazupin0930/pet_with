@@ -109,7 +109,6 @@
 
 **テスト用アカウント**: 
 
-**Basic認証**: ユーザー名: minato パスワード: 0604
 
 **利用方法**: 飼っているペット(犬、猫)の画像を投稿することができる。
             気に入った画像を投稿し、他人と画像の共有や、それを見て癒されることができる。
@@ -168,4 +167,4 @@ https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn
 するかのテスト。
 
 **開発環境**:
-Ruby(2.6.5), Ruby on Rails(6.0.3.5), Node.js(15.4.0), MySQL(5.6.50), Git(2.24.3), VScode
+Ruby(2.6.5), Ruby on Rails(6.0.3.5), JavaScript, JQuery, MySQL(5.6.50), Github, VScode, AWS(EC2)
