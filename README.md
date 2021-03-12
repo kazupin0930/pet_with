@@ -105,9 +105,7 @@
 
 **アプリケーション概要**: 主に犬や猫が大好きな方へ向けた、画像投稿型の共有アプリ。
 
-**URL**:
-
-**テスト用アカウント**: 
+**URL**:http://35.73.72.206/
 
 
 **利用方法**: 飼っているペット(犬、猫)の画像を投稿することができる。
@@ -157,7 +155,7 @@ https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn
 **チャット機能**:
 匿名なので気軽に雑談や情報を提供できる機能。
 
-**↓今後実装予定の機能↓**
+**↓今後実装予定の機能↓**(アプリ未完成なので)
 
 **いいね機能**:
 良いと思った投稿画像にいいねが気軽に押せる為の機能。
@@ -168,3 +166,4 @@ https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn
 
 **開発環境**:
 Ruby(2.6.5), Ruby on Rails(6.0.3.5), JavaScript, JQuery, MySQL(5.6.50), Github, VScode, AWS(EC2)
+
