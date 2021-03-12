@@ -12,7 +12,7 @@
   <div id='messages'>
     <% @messages.reverse_each do |message| %>
       <div class="message-date">
-      <%= message.created_at.to_s(:datetime_jp) %>
+        <%= message.created_at.to_s(:datetime_jp) %>
       </div>
       <div class="message-text">
         <%= message.text %>
