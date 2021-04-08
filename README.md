@@ -13,6 +13,8 @@
   
     
 
+![トップページ](https://gyazo.com/d2278e48f3e722d662009e2aeb9c9f3f)
+
 **ポートフォリオ(Googleスライド)**
 https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn9K0/edit#slide=id.gc3f0e6038d_0_34
   
@@ -93,7 +95,7 @@ Ruby(2.6.5), Ruby on Rails(6.0.3.5), JavaScript, JQuery, MySQL(5.6.50), Github, 
 
 **ER図**  
   
-
+  
 ![ER図](test.png)
 　　
   
