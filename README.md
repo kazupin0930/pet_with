@@ -1,5 +1,9 @@
 **PetWith**`(スマホ対応)`
-    [![トップページ](https://i.gyazo.com/83a739e42bc8513b8d5273addd26198b.jpg)](https://gyazo.com/83a739e42bc8513b8d5273addd26198b)
+    [![トップページ](https://i.gyazo.com/83a739e42bc8513b8d5273addd26198b.jpg)](https://gyazo.com/83a739e42bc8513b8d5273addd26198b)  
+
+[![Image from Gyazo](https://i.gyazo.com/5c0960ab4facffa634fb4ed59184c321.png)](https://gyazo.com/5c0960ab4facffa634fb4ed59184c321)  
+  
+  [![Image from Gyazo](https://i.gyazo.com/dc7541532fab61eefb57fc2c04600755.png)](https://gyazo.com/dc7541532fab61eefb57fc2c04600755)  
 
 **テストアカウント**: ログインアドレス:a@com  パスワード:aaaaaa
   
@@ -32,23 +36,23 @@
 自分の飼っているペットを自慢したい人。
 ペットを見て癒されたい人。
 このアプリケーションを通して、より犬や猫を好きになって欲しい。
-  
-    
-
-**画像投稿機能**:
-自身のお気に入りのペットの画像を共有し合う為の機能。
-  
     
 
 **ユーザーログイン機能**:
 ユーザーの投稿した画像が一致しているかどうか、わかるようにする為の機能。
-最低限必要な情報を入手する為の機能。
+最低限必要な情報を入手する為の機能。  
   
-    
+  [![Image from Gyazo](https://i.gyazo.com/05ce85491194a061efd7caaaa68978d9.jpg)](https://gyazo.com/05ce85491194a061efd7caaaa68978d9)
 
+**画像投稿機能**:
+自身のお気に入りのペットの画像を共有し合う為の機能。  
+  
+  [![Image from Gyazo](https://i.gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9.jpg)](https://gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9)
+    
+    
 **画像の詳細機能**:
 投稿した画像の情報を第三者が見れるようにする為の機能。
-  
+  [![Image from Gyazo](https://i.gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d.jpg)](https://gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d)
     
 
 **画像の編集機能**:
@@ -65,12 +69,12 @@
 ログイン時に記入したユーザーの個人情報が記載されているページ。
 ユーザーの情報を知る為の機能。
 画像の詳細からユーザーのページへ飛べるようにする為。
-  
+  [![Image from Gyazo](https://i.gyazo.com/99c4495a21dd4804ebbf3cbf99c5dad9.png)](https://gyazo.com/99c4495a21dd4804ebbf3cbf99c5dad9)
     
 
 **チャット機能**:
 匿名なので気軽に雑談や情報を提供できる機能。
-  
+  [![Image from Gyazo](https://i.gyazo.com/469f1e58bbd8a52e613a0b5ee36d4630.png)](https://gyazo.com/469f1e58bbd8a52e613a0b5ee36d4630)
     
 
 **↓今後実装予定の機能↓**(アプリ未完成なので)
@@ -82,7 +86,14 @@
     
 
 **開発環境**:
-Ruby(2.6.5), Ruby on Rails(6.0.3.5), JavaScript, JQuery, MySQL(5.6.50), Github, VScode, AWS(EC2)
+Ruby(2.6.5)
+Ruby on Rails(6.0.3.5)
+JavaScript
+JQuery
+MySQL(5.6.50)
+Github
+VScode
+AWS(EC2)
   
     
 
