@@ -1,4 +1,4 @@
-<h3>PetWith<h3>`(スマホ対応)`
+**PetWith**`(スマホ対応)`
     [![トップページ](https://i.gyazo.com/83a739e42bc8513b8d5273addd26198b.jpg)](https://gyazo.com/83a739e42bc8513b8d5273addd26198b)
     
 **テストアカウント**: ログインアドレス:a@com  パスワード:aaaaaa
