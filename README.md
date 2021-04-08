@@ -13,7 +13,6 @@
   
     
 
-![トップページ](https://github.com/kazupin0930/pet_with.wiki.git)
 
 **ポートフォリオ(Googleスライド)**
 https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn9K0/edit#slide=id.gc3f0e6038d_0_34
