@@ -42,17 +42,17 @@
 ユーザーの投稿した画像が一致しているかどうか、わかるようにする為の機能。
 最低限必要な情報を入手する為の機能。  
   
-  [![Image from Gyazo](https://i.gyazo.com/05ce85491194a061efd7caaaa68978d9.jpg)](https://gyazo.com/05ce85491194a061efd7caaaa68978d9)
+  [![Image from Gyazo](https://i.gyazo.com/05ce85491194a061efd7caaaa68978d9.png)](https://gyazo.com/05ce85491194a061efd7caaaa68978d9)
 
 **画像投稿機能**:
 自身のお気に入りのペットの画像を共有し合う為の機能。  
   
-  [![Image from Gyazo](https://i.gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9.jpg)](https://gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9)
+  [![Image from Gyazo](https://i.gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9.png)](https://gyazo.com/8452b93a0f321d0fa6ff0ca1b9d1f8a9)
     
     
 **画像の詳細機能**:
 投稿した画像の情報を第三者が見れるようにする為の機能。
-  [![Image from Gyazo](https://i.gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d.jpg)](https://gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d)
+  [![Image from Gyazo](https://i.gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d.png)](https://gyazo.com/a7e2c0c4e47314e2e797325cebf71c5d)
     
 
 **画像の編集機能**:
