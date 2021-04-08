@@ -1,4 +1,4 @@
-### PetWith `(スマホ対応)`  
+## PetWith `(スマホ対応)`  
   
   [![Image from Gyazo](https://i.gyazo.com/9d9547497072ef23d421f81e6bcce7a4.jpg)](https://gyazo.com/9d9547497072ef23d421f81e6bcce7a4)
 
@@ -39,54 +39,53 @@
 このアプリケーションを通して、より犬や猫を好きになって欲しい。  
     
 
-**ユーザーログイン機能**:
+### ユーザーログイン機能  
 ユーザーの投稿した画像が一致しているかどうか、わかるようにする為の機能。  
 最低限必要な情報を入手する為の機能。  
   
-  [![Image from Gyazo](https://i.gyazo.com/756203d5c760ac0c7687c43d6942a79f.png)](https://gyazo.com/756203d5c760ac0c7687c43d6942a79f)
+ [![Image from Gyazo](https://i.gyazo.com/aa3914e377991ef614376f8252b3358b.png)](https://gyazo.com/aa3914e377991ef614376f8252b3358b)
 
-**画像投稿機能**:
+### 画像投稿機能  
 自身のお気に入りのペットの画像を共有し合う為の機能。  
   
  [![Image from Gyazo](https://i.gyazo.com/170b5432702de712b0c35952eb3d192f.jpg)](https://gyazo.com/170b5432702de712b0c35952eb3d192f)
     
     
-**画像の詳細機能**:
+### 画像の詳細機能  
 投稿した画像の情報を第三者が見れるようにする為の機能。
 [![Image from Gyazo](https://i.gyazo.com/6412f4de779b365aaf4b1e7931807014.png)](https://gyazo.com/6412f4de779b365aaf4b1e7931807014)
     
 
-**画像の編集機能**:
+### 画像の編集機能  
 違う画像を投稿してしまった時や、変更したい情報があった時に編集できるようにする為の機能。
   
   [![Image from Gyazo](https://i.gyazo.com/2529f6631a18c249e520bdb2abdd9378.png)](https://gyazo.com/2529f6631a18c249e520bdb2abdd9378)
 
-**画像の削除機能**:
+### 画像の削除機能  
 不要な投稿を消したい時に、投稿したユーザーのみが削除できるようにする為の機能。
   
     
 
-**ユーザーのマイページ**:
+### ユーザーのマイページ  
 ログイン時に記入したユーザーの個人情報が記載されているページ。
 ユーザーの情報を知る為の機能。
 画像の詳細からユーザーのページへ飛べるようにする為。
   [![Image from Gyazo](https://i.gyazo.com/99c4495a21dd4804ebbf3cbf99c5dad9.png)](https://gyazo.com/99c4495a21dd4804ebbf3cbf99c5dad9)
     
-
-**チャット機能**:
+### チャット機能  
 匿名なので気軽に雑談や情報を提供できる機能。
   [![Image from Gyazo](https://i.gyazo.com/469f1e58bbd8a52e613a0b5ee36d4630.png)](https://gyazo.com/469f1e58bbd8a52e613a0b5ee36d4630)
     
 
-**↓今後実装予定の機能↓**
+### ↓今後実装予定の機能↓
   
 
-**いいね機能**:
+### いいね機能  
 良いと思った投稿画像にいいね(Like)が気軽に押せる為の機能。
   
     
 
-**開発環境**:
+### 開発環境  
 Ruby(2.6.5)  
 Ruby on Rails(6.0.3.5)  
 JavaScript  
