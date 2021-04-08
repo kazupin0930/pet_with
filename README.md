@@ -13,6 +13,7 @@
   
     
 
+[![トップページ](https://i.gyazo.com/83a739e42bc8513b8d5273addd26198b.jpg)](https://gyazo.com/83a739e42bc8513b8d5273addd26198b)
 
 **ポートフォリオ(Googleスライド)**
 https://docs.google.com/presentation/d/1c8aw_lUSpdtqgJjhrmYmEwHuFRlGPaGuJDHnkktn9K0/edit#slide=id.gc3f0e6038d_0_34
